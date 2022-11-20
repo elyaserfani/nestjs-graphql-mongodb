@@ -14,6 +14,10 @@ yarn start
 
 </br>
 
+Go to GraphQL playground in `http://localhost:3000/graphql`
+
+</br>
+
 ### Create :
 
 `mutation{ createUser(createUserInput:{ firstName:"Elyas", lastName:"Erfani", email:"elyaserfani2@gmail.com", role:"User" }){ _id firstName lastName email role } }`
